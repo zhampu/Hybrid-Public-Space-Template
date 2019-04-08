@@ -1,6 +1,8 @@
 # Hybrid-Public-Space-Template
 A website template for passing Markdown to Html and having the footnotes as  side notes
 
+example: http://juangomez.co/hybridpublicspaces/
+
 # Change the content
 
 The Thesis.md file is the content of my thesis but change it to your own Markdown to test the layout.
