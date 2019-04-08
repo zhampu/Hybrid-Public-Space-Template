@@ -12,7 +12,7 @@ Pandoc templating always put the references as footnotes.
 The advantage ot this template is that it will take all the foot notes like this:
 
 
-Here's a simple footnote,[^1] and here's a longer one.
+Here's a simple footnote,[^1]
 
 [^1]: This is the first footnote.
 
