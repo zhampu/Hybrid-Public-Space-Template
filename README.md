@@ -21,7 +21,7 @@ and transform them in side notes that will match the position of the reference i
 
 # To-DO
 
-- [x] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
+- [ ] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
 
 - [ ] Change to an open source font
 - [ ] make a table of content
