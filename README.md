@@ -16,6 +16,8 @@ Here's a simple footnote,[^1] and here's a longer one.
 
 [^1]: This is the first footnote.
 
+[Markdown Syntax](https://www.markdownguide.org/extended-syntax/)
+
 
 and transform them in side notes that will match the position of the reference in the scroll of the text.
 
