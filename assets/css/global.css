@@ -15,12 +15,12 @@ body {
 		animation-duration: 2s;
 	}
 blockquote{
-  font-family: "Pacifista-Italic";
+  font-family: 'Open Sans', sans-serif;
   font-size: larger;
 }
 
 .paper-title {
-	font-family: "Pacifista";
+	font-family: 'Open Sans', sans-serif;
 	/* Oblique title */
 	position:fixed;
 	top:80px;
@@ -103,7 +103,7 @@ font-weight: 700;
 	height:30px;
 }
  #nombre {
-	font-family: Pacifista;
+	font-family: 'Open Sans', sans-serif;
 	position:fixed;
 	left:0.1vw;
 	bottom:-35px;

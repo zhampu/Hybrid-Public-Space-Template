@@ -63,36 +63,7 @@ html {
 
 /* Fonfaces */
 
-@font-face {
-	font-family: "Pacifista";
-	src: url("/hybridpublicspaces/assets/fonts/PacifistaMB-Italic.eot") format("eot");
-	src: url("/hybridpublicspaces/assets/fonts/PacifistaMB-Italic.svg") format("svg"),
-	url("/hybridpublicspaces/assets/fonts/PacifistaMB-Italic.woff") format("woff"),
-	url("/hybridpublicspaces/assets/fonts/PacifistaMB-Italic.woff2") format("woff2"),
-	url("/hybridpublicspaces/assets/fonts/PacifistaMB-Italic.ttf") format("truetype");
-}
 
-@font-face {
-  font-family: "Pacifista-Italic";
-	src: url("/hybridpublicspaces/assets/fonts/PacifistaLS-Italic.eot") format("eot");
-	src: url("/hybridpublicspaces/assets/fonts/PacifistaLS-Italic.svg") format("svg"),
-	url("/hybridpublicspaces/assets/fonts/PacifistaLS-Italic.woff2") format("woff2"),
-	url("/hybridpublicspaces/assets/fonts/PacifistaLS-Italic.woff") format("woff"),
-	url("/hybridpublicspaces/assets/fonts/PacifistaLS-Italic.ttf") format("truetype");
-}
-
-
-/* @font-face {
-  font-family: "Pacifista";
-	src: url("/hybridpublicspaces/a/assets/fonts/PacifistaMB-Italic.ttf") format("truetype");
-	
-}
-
-@font-face {
-  font-family: "Pacifista-Italic";
-  src: url("/hybridpublicspaces/assets/fonts/PacifistaLS-Italic.ttf") format("truetype");
-}
- */
 
 @font-face {
 	font-family: 'Open Sans', sans-serif;
@@ -136,18 +107,18 @@ body {
 }
 
 .font-title {
-	font-family: "Pacifista";
+	font-family: 'Open Sans', sans-serif;
 	font-size: 5rem;
 	line-height: 1.1;
 }
 
 h1 {
-	font-family: 'Pacifista';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 2.3em;
 }
 
 strong{
-    font-family: Pacifista;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -161,7 +132,7 @@ a {
 	color: #000;
 	text-decoration: none;
 	border: 0;
-	font-family: Pacifista;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a:focus {
