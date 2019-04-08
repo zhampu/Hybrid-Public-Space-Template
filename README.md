@@ -3,6 +3,13 @@ A website template for passing Markdown to Html and having the footnotes as  sid
 
 example: http://juangomez.co/hybridpublicspaces/
 
+# How it works?
+
+Thesis.md file is changed to HTML thanks to [Markdownit](https://github.com/markdown-it/markdown-it#usage-examples).
+The Footnotes of the file are also parsed with [Footnotes plugin](https://github.com/markdown-it/markdown-it-footnote)
+
+The Main.js then changes the Footnotes into Side notes and places them in the correct position.
+
 # Change the content
 
 The Thesis.md file is the content of my thesis but change it to your own Markdown to test the layout.
@@ -23,7 +30,7 @@ Here's a simple footnote,[^1]
 
 and transform them in side notes that will match the position of the reference in the scroll of the text.
 
-# To-DO
+# To-Do
 
 - [ ] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
 - [ ] Make a table of content
