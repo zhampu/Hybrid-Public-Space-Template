@@ -3,6 +3,8 @@ A website template for passing Markdown to Html and having the footnotes as  sid
 
 example: http://juangomez.co/hybridpublicspaces/
 
+This website and *Kids-Manif* where made as part of Master Project class in [Digital Media Bremen](http://digitalmedia-bremen.de/)
+
 # How it works?
 
 Thesis.md file is changed to HTML thanks to [Markdownit](https://github.com/markdown-it/markdown-it#usage-examples).
