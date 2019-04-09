@@ -37,3 +37,7 @@ and transform them in side notes that will match the position of the reference i
 - [ ] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
 - [ ] Make a table of content
 - [ ] Add extra page for interviews, graphs , etc
+
+# Acknowlednment
+
+thanks to [Nicolas](https://github.com/azertypow) for his help!
