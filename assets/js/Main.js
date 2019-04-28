@@ -62,6 +62,8 @@ function requestInterval(fn, delay) {
 
 $(document).ready(function () {
 
+  
+
   var md = window.markdownit()
     .use(markdownitFootnote)
     .use(markdownitContainer),
@@ -72,6 +74,15 @@ $(document).ready(function () {
     $('#content').html(md.render(data));
 
     setTimeout(function () {
+
+      var list = $('#sidebar');
+  
+    $(".content-article h1").each(function() {
+        $(this).prepend('<a name="' + $(this).text() + '"></a>');
+        $(list).append('<li><a href="#' + $(this).text() + '">' +  $(this).text() + '</a></li>');
+
+    });
+      
       putNotes(".footnote-item")
       var elements = document.getElementsByClassName("footnote-ref");
     for (var i = 0; i < elements.length; ++i) {
@@ -112,28 +123,6 @@ function putNotes(footerClassName) {
 
     const footerNotesElements = document.querySelectorAll(footerClassName);
 
-    // const container = document.querySelectorAll("h1");
-
-    // var p = $( "h1:first" );
-    // var position = p.position();
-    // $( "h1:last" ).text( "left: " + position.left + ", top: " + position.top );
-    // var title = $('h1');
-    // console.log(title);
-
-    // $(window).scroll(function () {
-    //   title.each(function (index) {
-
-    //     console.log(title[index].getBoundingClientRect().y);
-    //     //console.log($(title[index]).offset().top);
-
-    //   });
-    // });
-
-    //       $( "h1" ).each(function( index ) {
-    //   console.log( index + ": " + $( this ).text() );
-    // });
-
-
 
     let prevFootnoteBottomPosition = 0;
     for (const footerElement of footerNotesElements) {
@@ -152,6 +141,7 @@ function putNotes(footerClassName) {
         noteNumberValueElement.className = "footnote-counter";
         copyOfFooterElement.insertBefore(noteNumberValueElement, copyOfFooterElement.firstChild);
         let topPosition = numElement.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
+        
         if (topPosition <= prevFootnoteBottomPosition) {
           topPosition = prevFootnoteBottomPosition + 56;
         }

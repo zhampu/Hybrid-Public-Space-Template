@@ -44,7 +44,7 @@
 @media screen and (max-width:768px) {
 
 	.notes-images {
-		position: relative
+		position: relative;
 		display: contents;
 		margin-left: 0;
 
@@ -142,7 +142,6 @@
 
 	body {
 		padding-left: 60px;
-		/* padding-right:40px; */
 		font-size: 1.6rem;
 			line-height: 1.2;
 		}
@@ -164,8 +163,14 @@
 	    /* left:35vw;
 	    top:100px; */
 			/* width:35vw; */
-			margin-bottom: 70%;
+			/* margin-bottom: 70%; */
 			display: block;
+		}
+
+		#sidebar{
+			margin-top: 24vh;
+		
+		
 		}
 
 
@@ -244,6 +249,4 @@
 
 	
 
-}
-
-
+}}

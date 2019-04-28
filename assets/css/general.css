@@ -17,6 +17,7 @@ svg {
 	stroke: black;
 	/* margin: 20px; */
 	position: fixed;
+	top:1vh;
 }
 .content-article> H1 {
 	font-size: 1.7em
@@ -39,11 +40,10 @@ circle{
 
 
 /* Navigation */
-.nav {
-	position: relative;
-	padding-bottom: 10%;
-	margin-bottom: 10%;
-	padding-left: 6%;
+#sidebar{
+	margin-top: 24vh;
+
+
 }
 
 
