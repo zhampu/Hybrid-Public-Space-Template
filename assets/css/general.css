@@ -42,6 +42,8 @@ circle{
 /* Navigation */
 #sidebar{
 	margin-top: 24vh;
+	z-index: 5;
+	position: relative
 
 
 }
