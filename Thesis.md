@@ -701,7 +701,7 @@ Tactical urbanism is use in place-making and change-making by reframing the pote
 
 
 
-# Hacking:a reciprocal form of interaction & Critical Making
+# Hacking: a reciprocal form of interaction & Critical Making
 
 In 2010 the term DIY citizenship and critical making was coined by Ratto and Boler, They articulate,
 “to be a citizen is no longer merely about the standard political activities of voting, advocating for policy changes, and protest; citizen action is diverse, participatory, and discoverable in unexpected locales….DIY citizenship draws attention to nondiscursive activity and “direct action.”[^82]
