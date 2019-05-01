@@ -140,12 +140,12 @@ The public perception of infrastructure has not always been as discrete[^20] as 
 
 [^20]:Infrastructural improvements are generally show to the public once achieved through by images  but their technical side is not expanded to the public but only to competetnt authorities.
 
-[^21]:**"Mediatising the Urban Landscape”**, Christoph Merian Verlag, 2013.*“The public enthusiasm that municipal sewer systems inspired in the late 19th century is difficult to imagine today:’ The ‘electrical sublime’, the elusive beauty electric illumination, embodied in the public streetlight of the ‘Great White Ways’, was a main draw for pedestrian crowds in the early 20th century.”*
+[^21]:**"Mediatising the Urban Landscape”**, Christoph Merian Verlag, 2013.“The public enthusiasm that municipal sewer systems inspired in the late 19th century is difficult to imagine today:’ The ‘electrical sublime’, the elusive beauty electric illumination, embodied in the public streetlight of the ‘Great White Ways’, was a main draw for pedestrian crowds in the early 20th century.”
 
 Users of these systems adapt rapidly to their use as the current HIC (Human Computer Interaction) period is at a point of a “natural smooth interface[^23]” The citizen/user becomes genuinely part of the mechanism. As a result, they lose most of their agency and a black-boxing, in the sense developed by actor-network theory, takes place[^24]. I call this a process of banalisation of infrastructural changes. This process is controversial as many of the solutions that are put in motion are then forgotten by the users[^25].
 
 [^22]:Mattern, and Shannon. **“Maintenance and Care: Fixing a Broken World.”** Places Journal, Princeton University Press, 1 Nov. 2018.&nbsp;
-“Many manufacturers aim to keep their wares out of repair and remix economies, and they carefully control the evolutionary lifecycle of their products. That’s especially true for smartphones and laptops, which “live and die by the update,” as Wendy Chun says. 62 But code increasingly plays a critical role in the functioning of responsive architectures and networked cities. Maintaining buildings and public infrastructures now involves attending to their underlying software. In so-called smart cities, that’s going to get expensive."*
+“Many manufacturers aim to keep their wares out of repair and remix economies, and they carefully control the evolutionary lifecycle of their products. That’s especially true for smartphones and laptops, which “live and die by the update,” as Wendy Chun says. 62 But code increasingly plays a critical role in the functioning of responsive architectures and networked cities. Maintaining buildings and public infrastructures now involves attending to their underlying software. In so-called smart cities, that’s going to get expensive."
 
 [^23]:Aiwen, Yin. **“Urbanizing the Digital: Call for Action”** Article, Volume #53
 
