@@ -141,9 +141,14 @@ function putNotes(footerClassName) {
         noteNumberValueElement.className = "footnote-counter";
         copyOfFooterElement.insertBefore(noteNumberValueElement, copyOfFooterElement.firstChild);
         let topPosition = numElement.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
-        
-        if (topPosition <= prevFootnoteBottomPosition) {
-          topPosition = prevFootnoteBottomPosition + 56;
+
+        console.log("body top", document.body.getBoundingClientRect().top)
+        console.log("body numElement", numElement.getBoundingClientRect().top)
+
+        const marginTopNote = 20; //px unit
+
+        if (topPosition - marginTopNote <= prevFootnoteBottomPosition) {
+          topPosition = prevFootnoteBottomPosition + marginTopNote;
         }
         noteElementToAdd.className = "font-small footnote";
         noteElementToAdd.style.position = "absolute";
