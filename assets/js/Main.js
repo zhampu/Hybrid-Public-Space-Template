@@ -2,6 +2,12 @@
 $(document).ready(function () {
 
 
+
+
+  
+
+
+
 // var s = skrollr.init();
 
 
@@ -62,8 +68,6 @@ function requestInterval(fn, delay) {
 
 $(document).ready(function () {
 
-  
-
   var md = window.markdownit()
     .use(markdownitFootnote)
     .use(markdownitContainer),
@@ -75,50 +79,43 @@ $(document).ready(function () {
 
     setTimeout(function () {
 
-      var list = $('#sidebar');
+      var list = $('#sidebar ul');
   
     $(".content-article h1").each(function() {
         $(this).prepend('<a name="' + $(this).text() + '"></a>');
         $(list).append('<li><a href="#' + $(this).text() + '">' +  $(this).text() + '</a></li>');
 
     });
-      
       putNotes(".footnote-item")
       var elements = document.getElementsByClassName("footnote-ref");
     for (var i = 0; i < elements.length; ++i) {
       elements[i].innerHTML = elements[i].innerHTML.replace('[',' ').replace(']','');
+
+      
     }
-    }, 200);
+    }, 500);
 
 
-    //lazyload
-    // $("img").each(function () {
-
-    //   $(this).attr("data-src", $(this).attr("src"));
-    //   $(this).removeAttr("src");
-    //   //lazyload
-    // $("img").addClass("lozad")
-
-
-    // lozad('.lozad', {
-    //   load: function (el) {
-    //     el.src = el.dataset.src;
-    //     el.onload = function () {
-    //       el.classList.add('fade')
-    //     }
-    //   }
-    // }).observe()
     
-    // });
-  });
+    
+
+
+    
+  })
+  
+  
+
+
+
 
 });
+
 
 
 function putNotes(footerClassName) {
     const noteContainer = document.querySelector(".r-notes-container");
     noteContainer.style.opacity = 0;
-    noteContainer.style.transition = "opacity 1000ms ease-in-out";
+    noteContainer.style.transition = "opacity 2000ms ease-in-out";
     noteContainer.innerHTML = "";
 
     const footerNotesElements = document.querySelectorAll(footerClassName);
@@ -141,7 +138,6 @@ function putNotes(footerClassName) {
         noteNumberValueElement.className = "footnote-counter";
         copyOfFooterElement.insertBefore(noteNumberValueElement, copyOfFooterElement.firstChild);
         let topPosition = numElement.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
-
         console.log("body top", document.body.getBoundingClientRect().top)
         console.log("body numElement", numElement.getBoundingClientRect().top)
 
@@ -164,7 +160,11 @@ function putNotes(footerClassName) {
   }
 
   window.addEventListener("resize", function () {
+
+    
     putNotes(".footnote-item");
+
+    
 
     
 
@@ -189,18 +189,4 @@ function putNotes(footerClassName) {
 
 
 
-  // $(document).ready(function() {
-  //    //   var x = $("p");
-  //    // console.log(x);
-  //
-  //   var container = document.querySelectorAll("h1");
-  //   console.log(container);
-  //
-  //   //    var x = $("h1").position.length();
-  //   // console.log(x);
-  //   //
-  //   // var y = document.querySelectorAll("h1");
-  //   // console.log(y);
-  //
-  //
-  //   });
+ 
