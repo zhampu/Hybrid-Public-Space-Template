@@ -1,0 +1,49 @@
+{
+  "name": "tutorial-react-parcel-express",
+  "version": "1.0.0",
+  "description": "A tiny getting started for a react project, with front-end built with parcel, and served through express.",
+  "main": "index.js",
+  "scripts": {
+    "build-watch": "parcel watch ./client/index.html",
+    "start-watch": "nodemon server/index.js",
+    "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
+    "build": "parcel build ./client/index.html",
+    "start": "npm run build && node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tutorial",
+    "react",
+    "parcel",
+    "express"
+  ],
+  "author": "witchard",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witchard/tutorial-react-parcel-express.git"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "assets": "^3.0.1",
+    "dist": "^0.1.2",
+    "express": "*",
+    "global.css": "^1.1.0",
+    "jquery": "^3.4.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-footnote": "^3.0.2",
+    "react": "*",
+    "react-dom": "*",
+    "reset.css": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/witchard/tutorial-react-parcel-express/issues"
+  },
+  "homepage": "https://github.com/witchard/tutorial-react-parcel-express#readme"
+}

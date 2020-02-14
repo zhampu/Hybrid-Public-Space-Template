@@ -1,0 +1,133 @@
+
+em {
+
+  display: block;
+  width: 81%;
+  font-weight: 300;
+  font-size: 1.2vh;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+blockquote {
+  font-family: "Pacifista-Italic";
+  font-size: larger;
+}
+
+.paper-title {
+  font-family: "Pacifista";
+  /* Oblique title */
+  position: fixed;
+  top: 80px;
+  width: 30%;
+  left: 1%;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.paper-title span.underline {
+  /* Underline style */
+  padding-bottom: 5px;
+}
+
+
+article {
+  position: absolute;
+  left: 32vw;
+  /* right:40px; */
+  top: 0px;
+  padding-top: 45px;
+  padding-bottom: 5px;
+}
+
+.content-article {
+  margin-left: 260px;
+  padding-bottom: 500px;
+  margin-right: 10px;
+}
+
+.notes-images {
+  position: absolute;
+  right: 65vw;
+  margin-right: -230px;
+  width: 400px;
+  opacity: 0;
+}
+
+.footnote {
+  float: right;
+  width: 200px;
+  margin-right: 50px;
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.r-notes-container {
+  top: 0;
+}
+
+.footnote-counter {
+  display: block;
+  font-weight: 700;
+}
+
+.footnote > a {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.footnote-content {
+  display: none;
+}
+
+.pourcentage {
+  position: fixed;
+  width: 4.2vw;
+  top: 20px;
+  text-align: right;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.numerotation {
+  position: absolute;
+}
+
+.numero {
+  position: absolute;
+  text-align: right;
+  width: 30px;
+  height: 30px;
+}
+
+#nombre {
+  font-family: Pacifista;
+  position: fixed;
+  left: 0.1vw;
+  bottom: -35px;
+
+
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+
+}
