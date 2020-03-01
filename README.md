@@ -16,6 +16,16 @@ The Main.js then changes the Footnotes into Side notes and places them in the co
 
 The Thesis.md file is the content of my thesis but change it to your own Markdown to test the layout.
 
+# Table of content
+
+Every H1 title will generate the TOC entry
+ex:
+```
+# first title
+
+# Second title
+```
+
 # Footnote to Side notes
 
 Pandoc templating always put the references as footnotes.
@@ -32,11 +42,13 @@ Here's a simple footnote,[^1]
 
 and transform them in side notes that will match the position of the reference in the scroll of the text.
 
+![image_caption](dist/images/Footnote_example.png)
+*Footnote Example*
 # To-Do
 
 - [ ] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
 - [x] Make a table of content
-- [ ] Add extra page for interviews, graphs , etc
+- [x] Add extra page for interviews, graphs , etc
 
 # Acknowlednment
 

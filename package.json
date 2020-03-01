@@ -1,7 +1,7 @@
 {
-  "name": "tutorial-react-parcel-express",
+  "name": "Hybrid-Public-Spaces-Template",
   "version": "1.0.0",
-  "description": "A tiny getting started for a react project, with front-end built with parcel, and served through express.",
+  "description": "A template to put your thesis online with markdown",
   "main": "index.js",
   "scripts": {
     "build-watch": "parcel watch ./client/index.html",
@@ -12,16 +12,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "tutorial",
-    "react",
-    "parcel",
-    "express"
+
   ],
-  "author": "witchard",
+  "author": "zhampu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/witchard/tutorial-react-parcel-express.git"
+    "url": "git+https://github.com/zhampu/Hybrid-Public-Space-Template.git"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
@@ -43,7 +40,7 @@
     "reset.css": "^2.0.2"
   },
   "bugs": {
-    "url": "https://github.com/witchard/tutorial-react-parcel-express/issues"
+    "url": "https://github.com/zhampu/Hybrid-Public-Space-Template.git"
   },
-  "homepage": "https://github.com/witchard/tutorial-react-parcel-express#readme"
+  "homepage": "https://github.com/zhampu/Hybrid-Public-Space-Template.git#readme"
 }
