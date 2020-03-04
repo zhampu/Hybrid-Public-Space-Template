@@ -12,6 +12,19 @@ The Footnotes of the file are also parsed with [Footnotes plugin](https://github
 
 The Main.js then changes the Footnotes into Side notes and places them in the correct position.
 
+# Install
+
+''' npm install '''
+'''npm run dev '''
+
+once you are done editing:
+
+'''npm run build '''
+
+and copy all the dist folder to your server
+
+Note: you might have to change the your @fontface and the path to your CSS  and JS file before puting them in your server.
+
 # Change the content
 
 The Thesis.md file is the content of my thesis but change it to your own Markdown to test the layout.
