@@ -834,6 +834,7 @@ In this case what we are doing, without having to give too many speeches at a co
 In addition to this we are also proposing “plaça in calcetines” the idea is to domesticate the square, turn it into something domestic. You walk in your house in socks and to the square also in socks. The sock is also a Christmas element and has been customized by children in school and the elderly in their homes. Hanging their own socks that have been personalized next to all the other socks  in the square is telling in a clear way that many people are appropriating this square. And then this is the excuse to make visible the bottom line that is to make people converge again to the square and turn it into a space of sociality.
 
 In this particular case, which is not very large at the level of gestures, what we are trying to do is to achieve on the one hand that in the short timescale there is a visibility, for example in the newspaper, but also to make visible a process and  intention of making a co-creation between some designers and architects with a public administration and with the citizens organized through their neighborhood organizations.
+"][p-0o98"
 
 Three things come from this example:
 
