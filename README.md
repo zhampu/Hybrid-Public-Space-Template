@@ -14,12 +14,18 @@ The Main.js then changes the Footnotes into Side notes and places them in the co
 
 # Install
 
-''' npm install '''
-'''npm run dev '''
+'''
+npm install
+'''
 
+'''
+npm run dev
+'''
 once you are done editing:
 
-'''npm run build '''
+'''
+npm run build
+'''
 
 and copy all the dist folder to your server
 
