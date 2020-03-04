@@ -1,6 +1,9 @@
+.wrapper{
 
+  margin-left: 10px;
+margin-right: 10px;
+}
 em {
-
   display: block;
   width: 81%;
   font-weight: 300;
@@ -8,8 +11,8 @@ em {
 }
 
 body {
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   position: relative;
 
 }
@@ -26,17 +29,13 @@ blockquote {
 
 .paper-title {
   font-family: "Pacifista";
-  /* Oblique title */
   position: fixed;
   top: 80px;
-  width: 30%;
-  left: 1%;
   z-index: 5;
   pointer-events: none;
 }
 
 .paper-title span.underline {
-  /* Underline style */
   padding-bottom: 5px;
 }
 
@@ -51,8 +50,7 @@ article {
 }
 
 .content-article {
-  margin-left: 260px;
-  padding-bottom: 500px;
+  margin-left: 10vw;
   margin-right: 10px;
 }
 
@@ -114,7 +112,7 @@ article {
 #nombre {
   font-family: Pacifista;
   position: fixed;
-  left: 0.1vw;
+  line-height: 0;
   bottom: -35px;
 
 

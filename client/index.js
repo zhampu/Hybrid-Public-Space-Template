@@ -2,31 +2,31 @@ import $ from 'jquery';
 import 'markdown-it';
 import 'markdown-it-container';
 import 'markdown-it-footnote';
-// Mouvements des carrés
 import './scss/_main.scss'
 
-$(document).ready(function () {
 
-    var circulo = document.querySelector("#circulo");
+// Take the Markdown File and passes it to HTML
+
+$(document).ready(function () {
+    var circulo = document.getElementById("circulo");
     setInterval(function () {
-        // circulo.setAttribute("cx", getRandomInt(5, 40));
-        // circulo.setAttribute("cy", getRandomInt(5, 30));
+
         circulo.setAttribute("r", getRandomInt(5, 30));
     }, 4000);
 
-    var circle = document.querySelector("#circle");
+    var circle = document.getElementById("circle");
     setInterval(function () {
         circle.setAttribute("width", getRandomInt(15, 30));
         circle.setAttribute("height", getRandomInt(25, 30));
     }, 4000);
 
-    var circle2 = document.querySelector("#circle2");
+    var circle2 = document.getElementById("circle2");
     setInterval(function () {
         circle2.setAttribute("width", getRandomInt(5, 40));
         circle2.setAttribute("height", getRandomInt(5, 30));
     }, 4000);
 
-    var circle3 = document.querySelector("#circle3");
+    var circle3 = document.getElementById("circle3");
     setInterval(function () {
         circle3.setAttribute("width", getRandomInt(5, 40));
         circle3.setAttribute("height", getRandomInt(5, 30));
@@ -58,16 +58,12 @@ $(document).ready(function () {
         handle.value = requestAnimFrame(loop);
         return handle;
     };
-});
-// Take the Markdown File and passes it to HTML
-
-$(document).ready(function () {
 
     var md = require('markdown-it')().use(require('markdown-it-container')).use(require('markdown-it-footnote'));
     $.get("Thesis.md", function (data) {
         $('#content').html(md.render(data));
         setTimeout(function () {
-            var list = $('#sidebar ul');
+            var list = $('#main ul');
             $(".content-article h1").each(function () {
                 $(this).prepend('<a name="' + $(this).text() + '"></a>');
                 $(list).append('<li><a href="#' + $(this).text() + '">' + $(this).text() + '</a></li>');
@@ -104,9 +100,7 @@ function putNotes(footerClassName) {
             noteNumberValueElement.className = "footnote-counter";
             copyOfFooterElement.insertBefore(noteNumberValueElement, copyOfFooterElement.firstChild);
             let topPosition = numElement.getBoundingClientRect().top - document.body.getBoundingClientRect().top;
-            // console.log("body top", document.body.getBoundingClientRect().top)
-            // console.log("body numElement", numElement.getBoundingClientRect().top)
-            const marginTopNote = 20; //px unit
+            const marginTopNote = 10; //px unit
 
             if (topPosition - marginTopNote <= prevFootnoteBottomPosition) {
                 topPosition = prevFootnoteBottomPosition + marginTopNote;
@@ -125,11 +119,10 @@ window.addEventListener("resize", function () {
 
 });
 $(function () {
-    //porcentage
     $(window).scroll(function () {
         var hauteur = $(document).height() - $(window).height();
         var pourcentage = (100 * $(window).scrollTop()) / hauteur;
-        $(".dizaine").css("opacity", 1);
+
         $(".compteur_pourcentage").html(Math.round(pourcentage));
     });
     if ($("html").hasClass("mobile")) {
@@ -140,4 +133,3 @@ $(function () {
 
 
 
- 

@@ -1,13 +1,13 @@
 
 # Acknowledgement
 
-1. Smart is a term that functions as an empty signifier. It is susceptible to many interpretations. Similar terms interpreted from its use could be: intelligent, knowledgeable, creative, virtual, inter-connected and digital, among others.
+1.Smart is a term that functions as an empty signifier. It is susceptible to many interpretations. Similar terms interpreted from its use could be: intelligent, knowledgeable, creative, virtual, inter-connected and digital, among others.
 
-2. This thesis is concerned with what “smart" indicates in infrastructure and technological innovation, rather than smart governance or e-government.
+2.This thesis is concerned with what “smart" indicates in infrastructure and technological innovation, rather than smart governance or e-government.
 
-3. I use the term DIY (Do-It-Yourself) as in using alternative methods and not standardized by industry. I use DIT (Do-It-Together) and DIWO (Do-It-With-Others) as of when this non standardized methods of doing things are made in a group of people.
+3.I use the term DIY (Do-It-Yourself) as in using alternative methods and not standardized by industry. I use DIT (Do-It-Together) and DIWO (Do-It-With-Others) as of when this non standardized methods of doing things are made in a group of people.
 
-4. My intended form of this thesis  was in an HTML2PRINT work flow. For the sake of respecting the delay this version was design in InDesign but the coming Web Site and personal version will be made with Paged.Js.
+4.My intended form of this thesis  was in an HTML2PRINT work flow. For the sake of respecting the delay this version was design in InDesign but the coming Web Site and personal version will be made with Paged.Js.
 
 Thanks to my supervisor **Lysianne Lechot-Hirt** for her patience and always goodwill to guide me when in doubt.
 
@@ -561,9 +561,9 @@ It is important to note that the Luchtsingel construction was facilitated by the
 
 Traditionally, architects and urbanists have little say in project funding. But, through crowdfunded campaigns, they can take an active role in it, engaging and sharing with the public their vision on how they think a project could exist without the means of the public tax. The public intelligence of citizens and their participation, in the Habermasian-sense, is then applied in combination with Sennett’s notion of action taken in the physical space. Other projects that exemplify this trend and participative urbanism are IOBY[^72] and Neighborland[^73], which connect citizens’ opinions with other stakeholders in the process of construction of infrastructure.,
 
-[^72]:**“In our backyards”** https://www.ioby.org/
+[^72]:**[“In our backyards”](https://www.ioby.org/)** 
 
-[^73]:**“Neighborland”** https://neighborland.com/
+[^73]:**[“Neighborland”](https://neighborland.com/ )** 
 
 For the analysis of this case, it is helpful to analyse their actions through the concepts of strategy and tactic by Michel de Certeau in **“The Practice of Everyday Life”**[^74] (1984).In considering ZUS’ environment, resources and time, they rapidly developed a series of small acts that created notable action againts the ruling institutions.
 
@@ -646,7 +646,7 @@ Partizaning tactics consist of unsanctioned repairs and improvements that collec
 
 Through their practice, Partizaning acknowledges that there are many local problems that cities authorities do not consider important., And, the collective acknowledges that the bureaucratic process for possibly attaining the recognition of these problems would take too long. As stated by Igor who quotes **"Right to the City"** by Lefebvre, inspiring the citizen through actions rather than only words and not only words, helps the citizen feeling that their city or neighbourhood belongs to them[^77]. Even by small actions that may not visible to mass media, a type of agency in the space is created.
 
-[^76]:**“Mike Lydon: Tactical Urbanism for Urban Replanning  Partizaning.”**Accessed December 5, 2018. http://eng.partizaning.org/?p=1441.
+[^76]:Lydon, Mike **[Tactical Urbanism for Urban Replanning](http://eng.partizaning.org/?p=1441)** Partizaning. Accessed December 5, 2018. .
 
 [^77]:Lefebvre, Henri. 1991. **“The Production of Space”**. Oxford, OX, UK: Blackwell.
 
@@ -706,18 +706,18 @@ Tactical urbanism is use in place-making and change-making by reframing the pote
 In 2010 the term DIY citizenship and critical making was coined by Ratto and Boler, They articulate,
 “to be a citizen is no longer merely about the standard political activities of voting, advocating for policy changes, and protest; citizen action is diverse, participatory, and discoverable in unexpected locales….DIY citizenship draws attention to nondiscursive activity and “direct action.”[^82]
 
-[^82]:Ratto, Matt, and Megan Boler. **“DIY Citizensh**IP:**  Critical Making and Social Media”**. The MIT Press, 2014.
+[^82]:Ratto, Matt, and Megan Boler. **“DIY Citizenship: Critical Making and Social Media”**. The MIT Press, 2014.
 
 
 Throughout their book, they explore these two terms in the context of social media. They consider where architects, planners and designers have started to develop ways to combine participatory methods with the advantages of social media technologies. Critical making comes from the DIY cultures where people share their knowledge on what they have learned from repairing or altering their daily artefacts. By doing this, there is a feeling of empowerment coming from one’s ability to change the hegemonic powers of the objects and structures around. Learning by doing, then, is a resourceful manner for mediating information as a hybrid of art and politics - art as doing something subjective combined with usefulness and beauty.
 
 Contemporary architecture does not only cope with the material part of the infrastructure, but also mediates between the use of them. Even before Sennett’s open city, many other classical philosophers advocated for the importance of shaping the relationships between the objects around and their surroundings. This relationship could be explored through critical making workshops. Initiatives such as the ones by Hackers & Designers[^83], Carlo Di Salvo[^84], and the The Bruit du Frigo[^85] have proven to be insightful for communities. Their non intimidating discourses and DIY ethos of low-tech creates a cheerful ambiance. These three examples are composed of designers as well by architects, sociologists, artists, and urban planners.
 
-[^83]: **“Hackers & Designers • H&D.”**, hackersanddesigners.nl/
+[^83]: **[“Hackers & Designers • H&D](hackersanddesigners.nl/)”**, 
 
-[^84]: **Carl Disalvo**, http://carldisalvo.com/research/
+[^84]: **[Carl Disalvo](http://carldisalvo.com/research/)**
 
-[^85]:**“Bruit Du Frigo“**, http://www.bruitdufrigo.com/
+[^85]:**[“Bruit Du Frigo“](http://www.bruitdufrigo.com/)**
 
 
 ![image_caption](images/67.jpg)
@@ -794,7 +794,7 @@ There is this interesting tension in the city between public space in a very cle
 
 I believe that temporality is very important because it allows us to enter into a more immediate, more direct, less heavy horizon at all economic, logistical, legal and other levels, which therefore allows a degree of risk from the point of view design. It is also true they have drawbacks that is that as it is not typified when you go to a town hall with a proposal for a public space intervention they do not know precisely what it is or where they put it and through what administrative logic can be done.
 
-****JG:** **  What you just said reminds me a bit of the interview I had with the Partizaning collective in Russia, they proposed many things to their municipality and none happened. They told them that they did not see any sense in installing something in the public space since they did not see big economic goals or see any reason for this temporary space to take place and that is why they made their interventions without asking much.
+**JG:** What you just said reminds me a bit of the interview I had with the Partizaning collective in Russia, they proposed many things to their municipality and none happened. They told them that they did not see any sense in installing something in the public space since they did not see big economic goals or see any reason for this temporary space to take place and that is why they made their interventions without asking much.
 
 How could a temporary project of this short time exist?
 How could there be participation by people in the conception of public space installation?
@@ -809,7 +809,7 @@ Landscape architecture comes from the world of agronomy and gardening, and they 
 
 So in the case of gardening and landscape helps us a lot with this in this logic, for example how to understand that our design gesture today has to be something that is understood as valid today but within 100 years? Also already throughout all these 100 years. When you plant a tree you have to decide what effect this little one will have in the next five years, when the tree is between 10 and 20 and when it is an adult tree between 20 and 50 and when it is a monumental tree. There are very specific logic and techniques of traditional gardening that work in this sense, for example the idea of ​​associating the plantation of an oak with the plantation of a poplar. The poplar grows very fast and the oak very slow. As the poplar grows fast it gives shade to the oak, the oak grows slower but when the oak has grown the poplar can be cut. Management of times
 
-****JG:** **  It’s like an ecology of gestures.
+**JG:** It’s like an ecology of gestures.
 
 **RP:**  Exactly
 
@@ -825,7 +825,7 @@ The citizens have ended up associating this place with a humble origin that they
 
 We told them that this is very good but it costs a lot of money and this will improve the square and that by all means we have to do this, but we think it is very important that this physical “re-bumping” costs a few million euros. Preceded not only by a participatory process in the construction site but also by encouraging the appropriation of this square by those of the immediate neighbors and citizens. Generate some kind of action that helps people feel theirs this square, and this can be super basic actions and with a minimal design component, for example, organizing chocolate night once a month.
 
-****JG:** **  This is what many call Place Making?
+**JG:** This is what many call Place Making?
 
 **RP:**  we call it Civic Place Making
 
@@ -851,7 +851,7 @@ Another framework of work for me could be: Use temporary architecture as a testi
 
 Thinking of a space that at this moment does not work very well and to propose some logic of temporary intervention that allows to point directions that can get to consolidate in a permanent intervention and this is not a project that begins and ends when the intervention is made, since then one has to be able to record the effect that this intervention is having or will have. For example regarding the flows of the square, or how it is organized or how it is perceived, etc. So to speak, the test field
 
-****JG:** **  I find interesting what you propose because in my thesis I relate technology and electronics embedded in the public space.
+**JG:** I find interesting what you propose because in my thesis I relate technology and electronics embedded in the public space.
 In my thesis, there is a part where I talk about this giving some examples in cities of the United States, where planners propose a great use of data extraction in an unethical way.
 It would be interesting in these dynamics of short temporality and civic placemaking to generate a speculative discourse.
 That is, to show one of the paths that the conception of these spaces could take. A participatory and speculative mediation.

@@ -7,7 +7,7 @@
     "build-watch": "parcel watch ./client/index.html",
     "start-watch": "nodemon server/index.js",
     "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
-    "build": "parcel build ./client/index.html",
+    "build": "parcel build ./client/index.html --no-minify",
     "start": "npm run build && node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
