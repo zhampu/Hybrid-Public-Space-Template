@@ -50,6 +50,9 @@ Pandoc templating always put the references as footnotes.
 
 The advantage ot this template is that it will take all the foot notes like this:
 
+# Edit Thesis in HackMd
+
+https://hackmd.io/c/tutorials/%2Fs%2Flink-with-github
 
 Here's a simple footnote,[^1]
 
@@ -64,6 +67,7 @@ and transform them in side notes that will match the position of the reference i
 *Footnote Example*
 # To-Do
 
+- [ ] Add manual for HackMD Markdown
 - [ ] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
 - [x] Make a table of content
 - [x] Add extra page for interviews, graphs , etc
