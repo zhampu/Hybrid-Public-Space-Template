@@ -8,6 +8,8 @@ import './scss/_main.scss'
 // Take the Markdown File and passes it to HTML
 
 $(document).ready(function () {
+
+
     var circulo = document.getElementById("circulo");
     setInterval(function () {
 
@@ -63,10 +65,13 @@ $(document).ready(function () {
     $.get("Thesis.md", function (data) {
         $('#content').html(md.render(data));
         setTimeout(function () {
-            var list = $('#main ul');
+            var list = $('#main');
             $(".content-article h1").each(function () {
-                $(this).prepend('<a name="' + $(this).text() + '"></a>');
+                $(this).prepend('<a id="' + $(this).text() + '"></a>');
                 $(list).append('<li><a href="#' + $(this).text() + '">' + $(this).text() + '</a></li>');
+
+                const firstA = document.querySelector("ul > li > a");
+                firstA.classList.add("active");
             });
             putNotes(".footnote-item")
             var elements = document.getElementsByClassName("footnote-ref");
@@ -74,11 +79,18 @@ $(document).ready(function () {
                 elements[i].innerHTML = elements[i].innerHTML.replace('[', ' ').replace(']', '');
             }
         }, 500);
+
+
     })
+
+
 });
 
+
+// var li = $('#main:first li:first a:first');
+// console.log(li);
 function putNotes(footerClassName) {
-    const noteContainer = document.querySelector(".r-notes-container");
+    const noteContainer = document.querySelector(".notes-images");
     noteContainer.style.opacity = 0;
     noteContainer.style.transition = "opacity 2000ms ease-in-out";
     noteContainer.innerHTML = "";
@@ -105,7 +117,7 @@ function putNotes(footerClassName) {
             if (topPosition - marginTopNote <= prevFootnoteBottomPosition) {
                 topPosition = prevFootnoteBottomPosition + marginTopNote;
             }
-            noteElementToAdd.className = "font-small footnote";
+            noteElementToAdd.className = "footnote";
             noteElementToAdd.style.position = "absolute";
             noteElementToAdd.style.top = topPosition + "px";
             prevFootnoteBottomPosition = noteElementToAdd.getBoundingClientRect().height + topPosition;
@@ -131,5 +143,64 @@ $(function () {
 });
 
 
+window.onscroll = function () {
+    titleExpand()
+    menuExpand()
+};
 
 
+
+function titleExpand() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.querySelector(".title").style.fontSize = "1.5em";
+
+
+    } else {
+        document.querySelector(".title").style.fontSize = "2.5em";
+
+    }
+}
+
+function menuExpand() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+
+        document.querySelector("#main").style.opacity = "1";
+    } else {
+
+        document.querySelector("#main").style.opacity = "0";
+    }
+}
+
+
+const x = document.getElementById('main');
+
+document.getElementById('open-menu').onclick = function () {
+
+
+
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+
+
+
+
+
+    }
+
+
+
+function myFunction(x) {
+    if (xy.matches) { // If media query matches
+        const mainmenu = document.getElementById('main');
+        mainmenu.style.display = "none";
+    }
+}
+
+var xy = window.matchMedia("(max-width: 1024px)")
+myFunction(x) // Call listener function at run time
+xy.addListener(myFunction) // Attach listener function on state changes

@@ -11,9 +11,7 @@
     "start": "npm run build && node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "zhampu",
   "license": "MIT",
   "repository": {

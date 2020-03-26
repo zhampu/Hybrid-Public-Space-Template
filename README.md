@@ -66,9 +66,10 @@ and transform them in side notes that will match the position of the reference i
 ![image_caption](dist/images/Footnote_example.png)
 *Footnote Example*
 # To-Do
-
-- [ ] Add manual for HackMD Markdown
+- [ ] Host a CodiMd set the document lenght to 1500000 [link](https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-configuration)
+- [ ] Add manual for CodiMD Markdown
 - [ ] Make the Print.css for HTML2PRINT this allows you to print your thesis in your browser without passing through Word or Indesign
+- [ ] Create 3 templates (Right sidenotes, end notes and left side notes)
 - [x] Make a table of content
 - [x] Add extra page for interviews, graphs , etc
 
