@@ -189,7 +189,7 @@ The metaphor of the theatre was also used by McLuhan when he started replacing t
 
 McLuhan anticipated a networked participatory society, and one cannot help but find similarities with today’s current state of social media platforms where people create and consume content in an infinite loop. Social media platforms are not only used for sharing content and opinions, but have also served as initial meeting points of communities around the world to gather in physical public spaces. Digitally-formed communities meet in physical spaces to share common interests via face-to face communication. Social media platforms have also been crucial for many of the political gatherings in public space and movements in recent years, such as the Arab Spring and Occupy Wall Street[^33].
 
-[^33]:Ratto, Matt, and Megan Boler. **"DIY Citizenship: Critical Making and Social Media"**, The MIT Press, 2014. 
+[^33]:Ratto, Matt, and Megan Boler. **"DIY Citizensh**IP:**  Critical Making and Social Media"**, The MIT Press, 2014. 
 “And increasingly, the DIY ethos has seismically reshaped the international political sphere, as can be seen in ongoing global uprisings and the uses of media and communications within a “logic of connective action”, a kind of “collective” or “networked” individualism constituting new hybrid social movements and practices of horizontal, participatory, and direct democracy. The Occupy Wall Street movement that began in September 2011—inspired by Los Indignados Movement in Spain, following the “Arab Spring”—represents just one example of such emergent, DIY political activities.”
 
 ![image_caption](images/7.png)
@@ -267,7 +267,7 @@ A discussion that comes only from idealistic space will consequently end up in t
 
 Critical participation in the civic endeavor of decision-making should not be romanticized, as seen in some media architectures where participation may be shown as a simple interaction (such as in buildings where lights turn on based on the number of people inside[^42]). The new dynamic for creating public infrastructure and spaces, such as crowdfunding and critical making workshops, could engage citizens in a better understanding of what is being implemented in their public spaces. The creation of commons’ knowledge and tools around these technologies could generate more agency and involvement towards new governance processes and implementations.
 
-[^42]:Ratto, Matt, and Megan Boler. **"DIY Citizenship: Critical Making and Social Media."** The MIT Press, 2014. “ In the current conjunction of media technologies and architecture, the concept of participation is often replaced with the notion of interaction, a related but not entirely synonymous term. The static materiality of architectural form is, for example, increasingly animated via the infusion of media screens and lighting effects into building facades. 
+[^42]:Ratto, Matt, and Megan Boler. **"DIY Citizensh**IP:**  Critical Making and Social Media."** The MIT Press, 2014. “ In the current conjunction of media technologies and architecture, the concept of participation is often replaced with the notion of interaction, a related but not entirely synonymous term. The static materiality of architectural form is, for example, increasingly animated via the infusion of media screens and lighting effects into building facades. 
 
 **Social media to act**
 > “Every social and ecological context is unique, and the solutions we seek will be based on an infinity of local needs.[^43]”
@@ -341,7 +341,7 @@ The case scenarios proposed are selected based on the following criteria:
 **There is a digital component of their creation.**
 **There is a consensus necessary in their implementation.**
 
-## Wikiplaza
+# Wikiplaza
 
 > “WikiPlaza was an experimental, long-term project that brought together several collectives of architects, hackers and activists at a time in which many cities in Spain were brimming over with self-managed creative activity operating in a harsh context of neoliberal policies. In the face of the gradual deactivation of public space, the idea sprung up of generating a hybrid public space in which to experiment with information and communication technologies as tools for individual and communal emancipation, based on free software and hardware, web 2.0 tools and open and transparent use of spaces and systems. The project was developed by a multidisciplinary team coordinated by Sergio Moreno and Laura Andrade from Hackitectura, and four prototypes were created between 2008 and 2011.WikiPlaza is an infrastructure made out of lightweight architectural elements and technological systems (hardware, NetWare, software) designed to be used by the public in an open and participatory manner, to share knowledge and experiences, to access local and remote resources, to connect to other people and locations. The concept is based on a modular structure, which gives it the maximum flexibility to adapt to different contexts and budgets, and which allows the independent development of the different modules, including: Web TV; Open MediaLab, Open Urban Screen and Open Performance”.
 > 
@@ -454,7 +454,7 @@ Even though their initial intention was to provide modules and a base that were 
 
 
 
-## Luchtsingel
+# Luchtsingel
 
 > “Hofplein was once a lively spot in the heart of Rotterdam. After twenty years, this area has been neglected and detached. The Hofplein’ surroundings illustrate a blind spot in the centre of the city. Rotterdam Central District carries the advantage of being a prime location in the city, however it is dominated by abandoned open spaces and vacant high rise buildings. In the context of the current market-oriented economy, it would take years for redevelopment to begin. The city could afford to wait: yet, the question of space is too complex to address in the future. Therefore it was the responsibility of Rotterdam to react to the problem of abandoned and derelict spaces. In order to do so, new entrepreneurs and residents should be enthused to contribute to the development of a progressive public space.”
 
@@ -590,7 +590,7 @@ For the analysis of this case, it is helpful to analyse their actions through th
 ![image_caption](images/51.jpeg)
 *ZUS*
 
-## Partizaning
+# Partizaning
 
 >“Throughout the 20th century, artistic movements have sought to challenge and break from traditional notions of art. This constant blurring of boundaries now means that any act or work done by an artist may be regarded as an object of art. Today, the distinction between art and non-art is almost impossible to make, and any classification is subjective.
 
