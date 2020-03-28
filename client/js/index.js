@@ -1,14 +1,17 @@
-import $ from 'jquery';
-import 'markdown-it';
-import 'markdown-it-container';
-import 'markdown-it-footnote';
-import './scss/_main.scss'
-
+import $ from 'jquery'
+import 'markdown-it'
+import 'markdown-it-container'
+import 'markdown-it-footnote'
+import '../scss/_main.scss'
+import {espaceFine} from "./espacefine.min";
 
 // Take the Markdown File and passes it to HTML
 
 $(document).ready(function () {
 
+
+    document.querySelector(".title").style.fontSize = "8em";
+    espaceFine();
 
     var circulo = document.getElementById("circulo");
     setInterval(function () {
@@ -91,23 +94,35 @@ $(document).ready(function () {
 // console.log(li);
 function putNotes(footerClassName) {
     const noteContainer = document.querySelector(".notes-images");
+    const footerNotesElements = document.querySelectorAll(footerClassName);
+    let prevFootnoteBottomPosition = 0;
+
+
     noteContainer.style.opacity = 0;
     noteContainer.style.transition = "opacity 2000ms ease-in-out";
     noteContainer.innerHTML = "";
-    const footerNotesElements = document.querySelectorAll(footerClassName);
-    let prevFootnoteBottomPosition = 0;
+
+
     for (const footerElement of footerNotesElements) {
-        footerElement.style.display = "none";
+
         const copyOfFooterElement = footerElement.cloneNode(true);
-        copyOfFooterElement.style.display = "block";
         const footerID = copyOfFooterElement.id;
         const num = footerID.substring(2);
+        // console.log(footerID);
+        // console.log(num);
         const numElementInTextID = "#fnref" + num;
+        // console.log(numElementInTextID);
         const numElement = document.querySelector(numElementInTextID);
+        // console.log(numElement);
+        footerElement.style.display = "none";
+        copyOfFooterElement.style.display = "block";
+
+
         if (numElement instanceof HTMLElement) {
             const noteElementToAdd = noteContainer.appendChild(copyOfFooterElement);
-            let first = false;
+
             const noteNumberValueElement = document.createElement("span");
+            // console.log(noteNumberValueElement);
             noteNumberValueElement.innerText = num + " ";
             noteNumberValueElement.className = "footnote-counter";
             copyOfFooterElement.insertBefore(noteNumberValueElement, copyOfFooterElement.firstChild);
@@ -121,6 +136,10 @@ function putNotes(footerClassName) {
             noteElementToAdd.style.position = "absolute";
             noteElementToAdd.style.top = topPosition + "px";
             prevFootnoteBottomPosition = noteElementToAdd.getBoundingClientRect().height + topPosition;
+            // console.log(noteElementToAdd);
+          var test =  noteElementToAdd.querySelector("a");
+            test.id = footerID;
+
         }
     }
     noteContainer.style.opacity = 1;
@@ -135,7 +154,7 @@ $(function () {
         var hauteur = $(document).height() - $(window).height();
         var pourcentage = (100 * $(window).scrollTop()) / hauteur;
 
-        $(".compteur_pourcentage").html(Math.round(pourcentage));
+        $(".pourcentage-number").html(Math.round(pourcentage));
     });
     if ($("html").hasClass("mobile")) {
         var windowWidth = $(window).width();
@@ -146,6 +165,7 @@ $(function () {
 window.onscroll = function () {
     titleExpand()
     menuExpand()
+    pourcentageExpand()
 };
 
 
@@ -156,7 +176,7 @@ function titleExpand() {
 
 
     } else {
-        document.querySelector(".title").style.fontSize = "2.5em";
+        document.querySelector(".title").style.fontSize = "8em";
 
     }
 }
@@ -171,6 +191,19 @@ function menuExpand() {
         document.querySelector("#main").style.opacity = "0";
     }
 }
+
+function pourcentageExpand() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+
+
+        document.querySelector(".pourcentage").style.opacity = "1";
+    } else {
+
+        document.querySelector(".pourcentage").style.opacity = "0";
+    }
+}
+
+
 
 
 const x = document.getElementById('main');

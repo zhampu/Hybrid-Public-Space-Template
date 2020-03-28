@@ -6,8 +6,9 @@
   "scripts": {
     "build-watch": "parcel watch ./client/index.html",
     "start-watch": "nodemon server/index.js",
-    "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
-    "build": "parcel build ./client/index.html --no-minify",
+    "dev:nodemon": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
+    "build": "parcel build index.html --no-minify --public-url ./",
+    "dev": "parcel index.html",
     "start": "npm run build && node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,9 +21,11 @@
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
+    "gh-pages": "^2.2.0",
     "nodemon": "^2.0.2",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.25.0"
+    "parcel-plugin-svg-sprite": "^1.4.1",
+    "sass": "^1.26.3"
   },
   "dependencies": {
     "assets": "^3.0.1",
@@ -30,11 +33,10 @@
     "express": "*",
     "global.css": "^1.1.0",
     "jquery": "^3.4.1",
+    "jquery-throttle-debounce": "^1.0.0",
     "markdown-it": "^10.0.0",
     "markdown-it-container": "^2.0.0",
     "markdown-it-footnote": "^3.0.2",
-    "react": "*",
-    "react-dom": "*",
     "reset.css": "^2.0.2"
   },
   "bugs": {
