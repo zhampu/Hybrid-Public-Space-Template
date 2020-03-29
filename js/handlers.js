@@ -1,9 +1,11 @@
-import {Handler, registerHandlers} from './paged.esm.js/index.js.js';
+import {Handler, registerHandlers} from './paged.esm.js';
 
 class myHandler extends Handler {
-    afterPageLayout(pageElement, page, breakToken){
-        console.log(pageElement);
-    }
+    beforeParsed(content) {
+
+    };
 }
 
 registerHandlers(myHandler);
+
+
