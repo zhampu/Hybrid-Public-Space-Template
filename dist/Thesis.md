@@ -9,7 +9,7 @@
 
 4.My intended form of this thesis  was in an HTML2PRINT work flow. For the sake of respecting the delay this version was design in InDesign but the coming Web Site and personal version will be made with Paged.Js.
 
-Thanks to my supervisor **Lysianne Lechot-Hirt** for her patience and always goodwill to guide me when in doubt.
+Thanks to my supervisor [**Lysianne Lechot-Hirt**](https://www.hesge.ch/head/annuaire/lysianne-lechot-hirt) for her patience and always goodwill to guide me when in doubt.
 
 Thanks to [**Andrea Sick**](https://andreasick.de/) and [**Frieder Nake**](https://en.wikipedia.org/wiki/Frieder_Nake) who guide through the process in Bremen.
 
@@ -341,7 +341,7 @@ The case scenarios proposed are selected based on the following criteria:
 **There is a digital component of their creation.**
 **There is a consensus necessary in their implementation.**
 
-# Wikiplaza
+## Wikiplaza
 
 > “WikiPlaza was an experimental, long-term project that brought together several collectives of architects, hackers and activists at a time in which many cities in Spain were brimming over with self-managed creative activity operating in a harsh context of neoliberal policies. In the face of the gradual deactivation of public space, the idea sprung up of generating a hybrid public space in which to experiment with information and communication technologies as tools for individual and communal emancipation, based on free software and hardware, web 2.0 tools and open and transparent use of spaces and systems. The project was developed by a multidisciplinary team coordinated by Sergio Moreno and Laura Andrade from Hackitectura, and four prototypes were created between 2008 and 2011.WikiPlaza is an infrastructure made out of lightweight architectural elements and technological systems (hardware, NetWare, software) designed to be used by the public in an open and participatory manner, to share knowledge and experiences, to access local and remote resources, to connect to other people and locations. The concept is based on a modular structure, which gives it the maximum flexibility to adapt to different contexts and budgets, and which allows the independent development of the different modules, including: Web TV; Open MediaLab, Open Urban Screen and Open Performance”.
 > 
@@ -454,7 +454,7 @@ Even though their initial intention was to provide modules and a base that were 
 
 
 
-# Luchtsingel
+## Luchtsingel
 
 > “Hofplein was once a lively spot in the heart of Rotterdam. After twenty years, this area has been neglected and detached. The Hofplein’ surroundings illustrate a blind spot in the centre of the city. Rotterdam Central District carries the advantage of being a prime location in the city, however it is dominated by abandoned open spaces and vacant high rise buildings. In the context of the current market-oriented economy, it would take years for redevelopment to begin. The city could afford to wait: yet, the question of space is too complex to address in the future. Therefore it was the responsibility of Rotterdam to react to the problem of abandoned and derelict spaces. In order to do so, new entrepreneurs and residents should be enthused to contribute to the development of a progressive public space.”
 
@@ -590,7 +590,7 @@ For the analysis of this case, it is helpful to analyse their actions through th
 ![image_caption](images/51.jpeg)
 *ZUS*
 
-# Partizaning
+## Partizaning
 
 >“Throughout the 20th century, artistic movements have sought to challenge and break from traditional notions of art. This constant blurring of boundaries now means that any act or work done by an artist may be regarded as an object of art. Today, the distinction between art and non-art is almost impossible to make, and any classification is subjective.
 

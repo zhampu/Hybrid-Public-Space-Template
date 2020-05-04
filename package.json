@@ -1,6 +1,6 @@
 {
-  "name": "Hybrid-Public-Spaces-Template",
-  "version": "1.0.0",
+  "name": "hybrid-public-spaces-template",
+  "version": "2.0.0",
   "description": "A template to put your thesis online with markdown",
   "main": "index.js",
   "scripts": {
