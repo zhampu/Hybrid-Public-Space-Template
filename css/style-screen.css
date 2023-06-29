@@ -82,8 +82,7 @@ body {
 }
 
 html {
-  font-size: 62.5%;
-  /* 1rem = 10px */
+  font-size: 62.5%; /* 1rem = 10px */
   width: 100%;
   height: 100%;
   scroll-padding-top: 200px;
@@ -101,34 +100,20 @@ article {
 }
 
 * {
-  font-variant-ligatures: common-ligatures;
-  /* high-level property          */
-  -moz-font-feature-settings: "liga";
-  /* low-level (old Firefox)      */
-  -webkit-font-feature-settings: "liga";
-  /* low-level (old Webkit)       */
-  font-feature-settings: "liga" on;
-  /* low-level (all new browsers) */
-  -moz-font-feature-settings: "dlig";
-  /* low-level (old Firefox)      */
-  -webkit-font-feature-settings: "dlig";
-  /* low-level (old Webkit)       */
-  font-feature-settings: "dlig" on;
-  /* low-level (all new browsers) */
-  font-variant-ligatures: historical-ligatures;
-  /* high-level property          */
-  -moz-font-feature-settings: "hlig";
-  /* low-level (old Firefox)      */
-  -webkit-font-feature-settings: "hlig";
-  /* low-level (old Webkit)       */
-  font-feature-settings: "hlig" on;
-  /* low-level (all new browsers) */
-  -moz-font-feature-settings: "calt";
-  /* low-level (old Firefox)      */
-  -webkit-font-feature-settings: "calt";
-  /* low-level (old Webkit)       */
-  font-feature-settings: "calt" on;
-  /* low-level (all new browsers) */
+  font-variant-ligatures: common-ligatures; /* high-level property          */
+  -moz-font-feature-settings: "liga"; /* low-level (old Firefox)      */
+  -webkit-font-feature-settings: "liga"; /* low-level (old Webkit)       */
+  font-feature-settings: "liga" on; /* low-level (all new browsers) */
+  -moz-font-feature-settings: "dlig"; /* low-level (old Firefox)      */
+  -webkit-font-feature-settings: "dlig"; /* low-level (old Webkit)       */
+  font-feature-settings: "dlig" on; /* low-level (all new browsers) */
+  font-variant-ligatures: historical-ligatures; /* high-level property          */
+  -moz-font-feature-settings: "hlig"; /* low-level (old Firefox)      */
+  -webkit-font-feature-settings: "hlig"; /* low-level (old Webkit)       */
+  font-feature-settings: "hlig" on; /* low-level (all new browsers) */
+  -moz-font-feature-settings: "calt"; /* low-level (old Firefox)      */
+  -webkit-font-feature-settings: "calt"; /* low-level (old Webkit)       */
+  font-feature-settings: "calt" on; /* low-level (all new browsers) */
 }
 
 .wrapper {
@@ -307,38 +292,31 @@ article {
     margin-left: 0;
     padding: 0;
   }
-
   em {
     display: block;
     width: 100%;
   }
-
   img {
     width: 100%;
     height: auto;
   }
-
   body {
     padding-left: 15px;
     padding-right: 15px;
     overflow-x: hidden;
     overflow-y: visible;
   }
-
   article {
     margin-left: 0;
     padding-right: 2.5vw;
     display: contents;
   }
-
   .title {
     font-size: 2.5rem;
   }
-
   article h3 {
     width: 75%;
   }
-
   .footnote-content .footnote-counter {
     display: inline;
     display: none;
@@ -348,11 +326,9 @@ article {
   .subtitle {
     left: 50px;
   }
-
   .movimiento {
     left: 0px;
   }
-
   .mobile-menu {
     padding: 5px;
     float: right;
@@ -372,7 +348,6 @@ article {
     -o-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
   }
-
   #main {
     display: none;
     height: auto;
@@ -384,13 +359,11 @@ article {
     float: none;
     display: block;
   }
-
   body {
     padding-left: 60px;
     font-size: 1.1rem;
     line-height: 1.4;
   }
-
   article {
     position: relative;
     left: 0;
@@ -403,22 +376,18 @@ article {
   article blockquote {
     margin: 0;
   }
-
   .content-article {
     margin-left: 0;
   }
-
   #main {
     margin-left: 0px;
     padding: 0;
   }
-
   .pourcentage {
     font-size: 0.9rem;
     left: 7px !important;
     top: 13px;
   }
-
   .notes-images {
     position: absolute;
     margin-right: 0;
@@ -427,30 +396,25 @@ article {
     opacity: 0;
     margin-top: 200px;
   }
-
   .notes-images {
     position: static;
   }
   .notes-images li {
     position: relative;
   }
-
   .notes-images > .footnote {
     top: 0 !important;
     position: relative !important;
   }
-
   .footnote {
     float: right;
     width: 100%;
     clear: both;
     padding-bottom: 10px;
   }
-
   .wrapper {
     margin-left: 50px;
   }
-
   .title {
     margin-bottom: 300px;
     margin-top: 0;
